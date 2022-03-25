@@ -15,10 +15,7 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
-    // <div>
-    //   <h1>Assignment Day 1</h1>
-    //   <Counter />
-    // </div>
+    
       <Router>
          <h1>Assignment Day 1</h1>
          <h2>Date :- 23-03-2022</h2>
@@ -29,8 +26,7 @@ function App() {
         <Route path="/day2" element={<Day2 />} />
         <Route path="/day3" element={<Day3 />} />
         <Route path="/day4" element={<Day4 />} />
-        <Route path="/day5" element={<Day5 />} />
-        {/* <Route path="todo" element={<Todo />} /> */}
+        <Route path="/day5" element={<Day5 />} /> 
         
       </Routes>
     </Router>
